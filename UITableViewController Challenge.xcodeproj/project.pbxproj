@@ -14,7 +14,6 @@
 		AF169C8719C9B1C200D412D5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AF169C8619C9B1C200D412D5 /* main.m */; };
 		AF169C8B19C9B1C200D412D5 /* DIAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AF169C8A19C9B1C200D412D5 /* DIAppDelegate.m */; };
 		AF169C8E19C9B1C200D412D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF169C8C19C9B1C200D412D5 /* Main.storyboard */; };
-		AF169C9119C9B1C200D412D5 /* DIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF169C9019C9B1C200D412D5 /* DIViewController.m */; };
 		AF169C9319C9B1C200D412D5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF169C9219C9B1C200D412D5 /* Images.xcassets */; };
 		AF169C9A19C9B1C200D412D5 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF169C9919C9B1C200D412D5 /* XCTest.framework */; };
 		AF169C9B19C9B1C200D412D5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF169C7A19C9B1C200D412D5 /* Foundation.framework */; };
@@ -45,8 +44,6 @@
 		AF169C8919C9B1C200D412D5 /* DIAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DIAppDelegate.h; sourceTree = "<group>"; };
 		AF169C8A19C9B1C200D412D5 /* DIAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DIAppDelegate.m; sourceTree = "<group>"; };
 		AF169C8D19C9B1C200D412D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		AF169C8F19C9B1C200D412D5 /* DIViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DIViewController.h; sourceTree = "<group>"; };
-		AF169C9019C9B1C200D412D5 /* DIViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DIViewController.m; sourceTree = "<group>"; };
 		AF169C9219C9B1C200D412D5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		AF169C9819C9B1C200D412D5 /* UITableViewController ChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UITableViewController ChallengeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF169C9919C9B1C200D412D5 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -115,8 +112,6 @@
 				AF169C8919C9B1C200D412D5 /* DIAppDelegate.h */,
 				AF169C8A19C9B1C200D412D5 /* DIAppDelegate.m */,
 				AF169C8C19C9B1C200D412D5 /* Main.storyboard */,
-				AF169C8F19C9B1C200D412D5 /* DIViewController.h */,
-				AF169C9019C9B1C200D412D5 /* DIViewController.m */,
 				AF169C9219C9B1C200D412D5 /* Images.xcassets */,
 				AF169C8119C9B1C200D412D5 /* Supporting Files */,
 			);
@@ -251,7 +246,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF169C8719C9B1C200D412D5 /* main.m in Sources */,
-				AF169C9119C9B1C200D412D5 /* DIViewController.m in Sources */,
 				AF169C8B19C9B1C200D412D5 /* DIAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
